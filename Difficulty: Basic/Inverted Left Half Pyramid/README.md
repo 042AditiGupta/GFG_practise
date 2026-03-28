@@ -1,0 +1,6 @@
+<h2><a href="https://www.geeksforgeeks.org/problems/inverted-left-half-pyramid/1">Inverted Left Half Pyramid</a></h2><h3>Difficulty Level : Difficulty: Basic</h3><hr><div class="problems_problem_content__Xm_eO"><p><span style="font-size: 18px;">Given a number&nbsp;</span><strong style="font-size: 18px;">n</strong><span style="font-size: 18px;">. Print Inverted Left Half Pyramid&nbsp;with n lines.</span></p>
+<p><span style="font-size: 18px;"><span style="font-size: 18px;"><strong>Note:</strong> There is a space between two adjacent stars (*) in the pattern.</span></span></p>
+<p><span style="font-size: 18px;"><strong>Examples:</strong></span></p>
+<pre><span style="font-size: 18px;"><strong>Input</strong>: n = 5<br><strong>Output:</strong><br>* * * * *<br>* * * *&nbsp;<br>* * *&nbsp;<br>* *&nbsp;&nbsp;<br>*&nbsp;</span></pre>
+<pre><span style="font-size: 18px;"><strong>Input</strong>: n = 3<br><strong>Output:</strong><br>* * *&nbsp;<br>* *&nbsp;&nbsp;<br>*&nbsp;</span></pre>
+<p><span style="font-size: 18px;"><strong>Constraints:<br></strong></span><span style="font-size: 18px;">1 ≤ n ≤ 100</span></p></div><br><p><span style=font-size:18px><strong>Topic Tags : </strong><br><code>Algorithms</code>&nbsp;<code>pattern-printing</code>&nbsp;
