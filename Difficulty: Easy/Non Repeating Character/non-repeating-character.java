@@ -1,24 +1,28 @@
 class Solution {
     public char nonRepeatingChar(String s) {
         // code here
-        char ch[]=s.toCharArray();
-        for(int i=0;i<ch.length;i++)
+        LinkedHashMap<Character,Integer>map=new LinkedHashMap<>();
+        for(int i=0;i<s.length();i++)
         {
-            boolean flag=false;
-            for(int j=0;j<ch.length;j++)
+            if(!map.containsKey(s.charAt(i)))
             {
-                if(i!=j && ch[i]==ch[j])
-                {
-                    flag=true;
-                    break;
-                }
+                map.put(s.charAt(i),1);
+                
             }
-            if(flag==false)
+            else
             {
-                return ch[i];
+                int freq=map.get(s.charAt(i));
+                map.put(s.charAt(i),freq+1);
             }
+        }
+        for(char ele:map.keySet())
+        {
+            if(map.get(ele)==1)
+            {
+               return ele;
+            }
+            
         }
         return '$';
     }
-    
 }
